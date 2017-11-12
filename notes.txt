@@ -1,0 +1,27 @@
+flat file - create files locally
+db - traditional
+
+blog: 
+    slug: url ppl go to.
+    title: obv
+    content: ppl read stuff
+    excerpt: Summary (first ocuple senetences)
+    date: sorting knowning when
+    id(number): unique identifier for post
+    // tags: searchable :( will imp late maybe
+
+comments: //one to many relationship to blog DISQUS good 3rd party
+    content: text
+    author: fdkasl
+    date: 
+    review_score:
+    id:
+    blog_id:
+
+    sql tldr:
+        one to one : user_main to user_details
+        one to many : blog and comments
+        many to many : blogs and tags
+
+<!--{{}} var  -->
+<!--{%%} action/command  -->
